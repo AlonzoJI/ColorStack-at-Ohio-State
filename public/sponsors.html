@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sponsors - ColorStack at Ohio State</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Basic styling */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333333;
+      }
+
+      /* Header and navigation */
+      header {
+        background-color: #000000;
+        color: #f2f2f2;
+        padding: 10px 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      .logo {
+        max-width: 150px;
+        margin: 10px;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin: 0 15px;
+      }
+      nav ul li a {
+        color: #f2f2f2;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .join-btn {
+        background-color: #666666;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+
+      /* Sponsors section */
+      .sponsors-section {
+        padding: 80px 20px 60px; /* Extra padding at the bottom for white space */
+        text-align: center;
+      }
+      .sponsor-logos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        justify-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .sponsor-logo {
+        width: 150px;
+        height: auto;
+        object-fit: contain;
+        background-color: transparent;
+      }
+
+      /* Centering GoDaddy on the last row */
+      .sponsor-logos > .sponsor-logo:last-child {
+        grid-column: 1 / -1; /* This will center the last logo if it appears alone on the last row */
+        justify-self: center;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #666666;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <br>
+    <header>
+      <a href="index.html">
+        <img
+          src="assets/colorstack-at-ohio-state-logo.png"
+          alt="ColorStack at Ohio State Logo"
+          class="logo"
+        />
+      </a>
+      <nav>
+        <ul>
+          <li id="nav-about"><a href="about.html">About</a></li>
+          <li id="nav-sponsors"><a href="sponsors.html">Sponsors</a></li>
+          <li id="nav-resources"><a href="resources.html">Resources</a></li>
+          <li id="nav-membership">
+            <a href="membership.html" class="join-btn">Join</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="sponsors-section">
+      <div class="text-container">
+        <h1>Our Sponsors</h1>
+        <p>
+          We are grateful for the generous support from our sponsors who make our mission possible.
+        </p>
+        <div class="sponsor-logos">
+          <img
+            src="assets/company_logos/jp-morgan-chase-logo.png"
+            alt="JPMorgan Chase Logo"
+            class="sponsor-logo"
+          />
+          <img
+            src="assets/company_logos/c-1-logo.png"
+            alt="Capital One Logo"
+            class="sponsor-logo"
+          />
+          <img
+            src="assets/company_logos/mastercard-logo.png"
+            alt="Mastercard"
+            class="sponsor-logo"
+          />
+          <img
+            src="assets/company_logos/advanced_drainage_systems_logo.png"
+            alt="Advanced Drainage Systems"
+            class="sponsor-logo"
+          />
+          <img
+            src="assets/company_logos/cardinal_health_logo.png"
+            alt="Cardinal Health"
+            class="sponsor-logo"
+          />
+          <img
+            src="assets/company_logos/willowtree-logo.svg"
+            alt="WillowTree"
+            class="sponsor-logo"
+          />
+          <img
+            src="assets/company_logos/godaddy.png"
+            alt="GoDaddy"
+            class="sponsor-logo"
+          />
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+      <p>
+        © <span id="current-year"></span> ColorStack at Ohio State. All rights reserved.
+      </p>
+    </footer>
+    <script>
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
