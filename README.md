@@ -1,8 +1,8 @@
 # ColorStack at The Ohio State University
 
-[![Slack](https://img.shields.io/badge/slack-%23seatunnel-4f8eba?logo=slack)](https://join.slack.com/t/colorstackosu/shared_invite/zt-2pm3rbsc0-d25NkeW0B14YIEHclyJsVg)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/colorstack-osu)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/colorstackatosu)
+[![Slack](https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=fff)](https://join.slack.com/t/colorstackosu/shared_invite/zt-2pm3rbsc0-d25NkeW0B14YIEHclyJsVg)
+[![LinkedIn](https://img.shields.io/badge/Linkedin-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/colorstack-osu)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/colorstackatosu)
 
 This repository contains the source files for the ColorStack at Ohio State University website, hosted at [colorstack.cs.osu.edu](https://colorstack.cs.osu.edu/).
 
